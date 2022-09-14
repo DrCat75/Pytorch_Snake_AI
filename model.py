@@ -5,7 +5,7 @@ import torch.nn.functional as F
 import os
 
 # Try to implement another layer in another branch
-
+# In the branch deeper_network, we try to make the network deeper by adding more hidden layers
 class Linear_QNet(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
         super().__init__()
